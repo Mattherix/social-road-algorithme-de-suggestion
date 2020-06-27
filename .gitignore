@@ -1,0 +1,32 @@
+# Pycache & log
+__pycache__/
+*.pyc
+*.log
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pycharm
+.idea/*
+
+# Git
+.gitconfig
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+core/migrations/
+account/migrations/
+post/migrations/
+
+# Test
+.pytest_cache/
+.coverage
+coverage.xml
