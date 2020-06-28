@@ -2,12 +2,12 @@ from decimal import Decimal
 from pickle import load
 from unittest import TestCase
 
-from ..algorithme_de_suggestion import note_post, suggestion
+from algorithme_de_suggestion import note_post, suggestion
 
 
 class Test(TestCase):
     def setUp(self):
-        f = open('algorithme_de_suggestion/tests/algorithme_de_suggestion.pkl', 'rb')
+        f = open('tests/algorithme_de_suggestion.pkl', 'rb')
         try:
             self.data = load(f)
         finally:
